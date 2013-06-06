@@ -6,9 +6,9 @@ Chef will install nginx, monit, postgresql and create the config files. The app 
 - Install Vagrant 1.2.2 from http://downloads.vagrantup.com
 - Run the following commands
 
-        vagrant box add vagrant-debian-wheezy http://crigor.com/rubykaigi/vagrant-debian-wheezy.box
-        git clone git://github.com/crigor/todo-rubykaigi.git
-        cd todo-rubykaigi
+        vagrant box add vagrant-debian-wheezy http://crigor.com/reddot/vagrant-debian-wheezy.box
+        git clone git://github.com/crigor/todo-reddot.git
+        cd todo-reddot
         vagrant up
 
 Sample output of the vagrant up command can be found at https://gist.github.com/crigor/5671292.

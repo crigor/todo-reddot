@@ -12,3 +12,5 @@ Chef will install nginx, monit, postgresql and create the config files. The app 
         vagrant up
 
 Sample output of the vagrant up command can be found at https://gist.github.com/crigor/5671292.
+
+Test travis build

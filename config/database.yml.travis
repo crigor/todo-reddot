@@ -1,0 +1,4 @@
+test:
+  adapter: postgresql
+  database: todo_test
+  username: postgres

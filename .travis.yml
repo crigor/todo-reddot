@@ -4,7 +4,6 @@ rvm:
   - 2.0.0
 script: bundle exec rake travis
 before_script:
-  - psql -c 'create database todo_test;' -U postgres
   - cp config/database.yml.travis config/database.yml
 services:
   - postgresql

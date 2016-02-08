@@ -2,7 +2,7 @@ language: ruby
 rvm:
   - 1.9.3
   - 2.0.0
-script: bundle exec rake travis
+script: bundle exec rake foo
 before_script:
   - cp config/database.yml.travis config/database.yml
 services:
@@ -11,4 +11,3 @@ notifications:
   email:
     recipients:
       - crigor@rigprog.com
-    on_success: always
